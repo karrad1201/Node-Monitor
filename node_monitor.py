@@ -8,7 +8,7 @@ NODA_CFG = {
     'Region': 'RU',
     'id': '0',
 }
-SERVER_URL = "https://bot.elbrusvpn.pro/apiv1/metrics"  # Куда отправлять
+SERVER_URL = ""  # Куда отправлять
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("monitor_client")
